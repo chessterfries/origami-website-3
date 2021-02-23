@@ -1,0 +1,77 @@
+body {
+    background-color:#f7f2f2;
+    margin:0;
+    padding:0;
+}
+
+.menu {
+    display:flex;
+    justify-content:space-between;
+    background-color:#000000;
+    font-size:20px;
+    font-family:cursive;
+    font-weight:400;
+    color:#ffffff;
+    padding:10px;
+}
+
+ .menu a {
+    text-decoration:none;
+    padding:10px;
+    transition:0.5s;
+}
+
+.menu a:hover {
+    background-color:#800080;
+    color:#ffffff;
+    transition:0.5s;
+}
+
+.grid img {
+    border:2px solid #000000;
+    border-radius:50px;
+}
+
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    margin:10px;
+    padding:25px;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color:#ffffff;
+    width:310px;
+    font-family:fantasy;
+    margin:25px;
+    padding:30px;
+}
+
+.body-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family:cursive;
+    text-align:center;
+    padding: 100px; 
+}
+
+.header {
+    position:fixed;
+    width:100%;
+    z-index:1;
+}
+
+.instruct-and-diagram-title {
+    text-align:center;
+    font-family:impact;
+    font-size:30px;
+}
+
+.header-title {
+    font-size:20px;
+}
